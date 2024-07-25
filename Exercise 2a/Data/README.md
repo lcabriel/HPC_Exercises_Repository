@@ -1,0 +1,4 @@
+## Exercise 2a: Data
+
+In this directory are store the data about the computation time for the proposed custom algorithm and the official one.
+I have considered the necessary time to complete the broadcast for both of the two algorithm on a growing number of processes (from 4 to 64) in two different situations: when all of them are in the same node ("samenode_times") and when they are split between two nodes ("diffnode_times"). The data file starting with "bcustom" are associated to the our custom algorithm while the files with "bnative" contain data produced using the original algorithm. Obviously different configurations and distributions of the processes inside the node and especially the position of the two nodes in the diffnode case effect the measured times. For these reasons all of the configurations have been measured 200 time restarting each time the testing.
