@@ -1,5 +1,5 @@
 # HPC Exercises Repository
- Repository to store the required exercise for the exam of HPC.
+ Repository to store the required exercises for the exam of HPC.
 
 
 # Professor Tornatore's Part
