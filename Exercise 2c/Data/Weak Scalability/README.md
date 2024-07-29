@@ -1,0 +1,8 @@
+### Exercise 2c: Weak Scalability
+
+In this directory are store the data about the computation time to obtain the weak scalability for the final version of the solution ("parallel_refactor") and for the solution implementing the naive parallel algorithm (parallel).
+
+For the weak scalability, I have fixed the problem considering the complex domain $[-2.75,1.25]\times[-2,2]$ and with an iteration cap of 30000. For the processor workload I opted for a workload equivalent to a matrix of $400\times 400$ pixels so 160000 values to compute the Mandelbrot series. So for one thread I have considered a grid of $400\times 400$ pixels but for 2 threads I have considered one of $566\times 566\simeq 320000$. For each one of the two version, for different numbers of threads, I have run the associated code recording the execution time of each thread and the total execution time for the process. 
+\\All this time data have been put in CSVs file with a run for each column and leaving in the last row the total time. This procedure has been repeated for different numbers of thread from 1 to 16 scaling the global problem size. Obviously, having different number of threads implies that the CSVs have different number of rows: in fact if I have only a thread I will have 1+1 rows but for 10 threads will be 10+1 rows in the file. 
+
+In this directory I have also inserted a Python Notebook ("time_elaborator.ipynb") containing all the elaborations of this time data and the plots. The observations about the results are also completely covered in the report however the single comment and the raw code are not reported there so if you are interested, please take a look.

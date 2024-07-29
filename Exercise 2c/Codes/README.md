@@ -1,4 +1,4 @@
-## Exercise 2a: Codes
+## Exercise 2c: Codes
 
 In this directory you can find all the C codes used to solve the problem request. The final version of the algorithm is "mandelbrot_parallel_refactor.c" however I left all the other versions for comparison and also because are used to test the different performances of the different approaches.
 Now I will briefly describe all the codes but for more information please look to the report and to the comments inside each one of them.
