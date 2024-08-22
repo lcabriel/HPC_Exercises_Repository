@@ -1,4 +1,4 @@
 ## bcast
 
 In this directory, you can find the time data about the "bcast" collective operation.
-We have stored separately the data concerning the EPYC nodes and THIN nodes.
+I have stored separately the data concerning the EPYC nodes and THIN nodes.
